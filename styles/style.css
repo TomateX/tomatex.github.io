@@ -1,5 +1,9 @@
+
+
 body{
     background-color: #424242;
+    margin: 0;
+    padding: 0;
 }
 
 p,h1,h2,h3,h4,h5,h6{
@@ -19,7 +23,7 @@ head
 */
 
 .head{
-    height: 200px;
+    height:80px;
 }
 
 /*head name*/
@@ -30,23 +34,25 @@ head
     display: flex;
     justify-content: left;
     align-items: center;
+    margin: 10px;
 }
 
 .head_pb{
-    height: 150px;
+    height: 60px;
     width: auto;
     border-style: solid;
     border-radius: 30px;
-    border-width: 5px;
+    border-width: 2px;
     margin: 20px;
     border-color: #62be05;
 }
 
 .head_heading{
-    font-size: 150px;
+    font-size: 50px;
     color: #62be05;
     padding-left: 10px;
-    padding-top: 100px;
+    padding-right: 10px;
+    padding-top: 50px;
 }
 
 /*head info*/
@@ -58,9 +64,9 @@ head
 }
 
 .info_heading{
-    font-size: 55px;
+    font-size: 20px;
     padding: 30px;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .bild{
@@ -71,3 +77,4 @@ head
     width: 50%;
     height: auto;
 }
+
