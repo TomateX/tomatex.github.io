@@ -1,13 +1,28 @@
 
+:root{
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #242424;
+    --bg-color: #ffffff;
+    --heading-color: #242424;
+} 
+
+.dark {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #fff;
+    --bg-color: #242424;
+    --heading-color: #ffffff;
+}
 
 body{
-    background-color: #424242;
+    background-color: var(--bg-color);
     margin: 0;
     padding: 0;
 }
 
 p,h1,h2,h3,h4,h5,h6{
-    color: rgb(255, 255, 255);
+    color: var(--heading-color);
     font-family: 'tele-marines';
 }
 
@@ -69,7 +84,13 @@ head
     padding-top: 150px;
 }
 
-.bild{
+.main-picture{
+    background-color: rgb(0, 255, 64);
+    padding: 5px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(181, 240, 195);
+    border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
@@ -77,4 +98,3 @@ head
     width: 50%;
     height: auto;
 }
-
